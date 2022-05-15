@@ -8,18 +8,23 @@
 import Foundation
 
 // MARK: - Data Structure for JSON
+
 struct DataStructure: Decodable {
     let banks: [Bank]
 }
 
 // MARK: - Bank
-struct Bank: Codable {
+
+struct Bank: Decodable {
+    // Ajout d'une variable pour savoir si on doit ouvrir ou non la section. Par défaut non (nil ou false)
+    var isOpen: Bool?
     let name: String
     let isCA: Int
     let accounts: [Account]
 }
 
 // MARK: - Account
+
 struct Account: Codable {
     let holder: String
     let label: String
@@ -34,6 +39,7 @@ struct Account: Codable {
 }
 
 // MARK: - Operation
+
 struct Operation: Codable {
     let title, amount: String
     let date: String

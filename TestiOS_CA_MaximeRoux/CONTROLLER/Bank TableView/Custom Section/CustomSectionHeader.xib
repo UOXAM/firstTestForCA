@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomSectionHeader" customModule="TestiOS_CA_MaximeRoux" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="YML-3i-jjO" customClass="HeaderSectionView" customModule="TestiOS_CA_MaximeRoux" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BankAccount.title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNs-Ns-3BT">
+                            <rect key="frame" x="10" y="0.0" width="161.5" height="44"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ouc-ZJ-Se2">
+                            <rect key="frame" x="300" y="0.0" width="50" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="2NS-C8-4DD"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain">
+                                <imageReference key="image" image="chevron.down" catalog="system" symbolScale="large"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naF-Zf-yFN">
+                            <rect key="frame" x="237.5" y="0.0" width="57.5" height="44"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="CBX-8t-x5g"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="CBX-8t-x5g" firstAttribute="bottom" secondItem="naF-Zf-yFN" secondAttribute="bottom" id="1Cx-9A-d53"/>
+                        <constraint firstItem="CBX-8t-x5g" firstAttribute="bottom" secondItem="YNs-Ns-3BT" secondAttribute="bottom" id="2dt-gh-Rco"/>
+                        <constraint firstItem="CBX-8t-x5g" firstAttribute="bottom" secondItem="Ouc-ZJ-Se2" secondAttribute="bottom" id="5eI-i9-7ga"/>
+                        <constraint firstItem="naF-Zf-yFN" firstAttribute="top" secondItem="YML-3i-jjO" secondAttribute="top" id="WnL-zf-uwd"/>
+                        <constraint firstItem="CBX-8t-x5g" firstAttribute="trailing" secondItem="Ouc-ZJ-Se2" secondAttribute="trailing" id="emo-Kh-0jp"/>
+                        <constraint firstItem="Ouc-ZJ-Se2" firstAttribute="leading" secondItem="naF-Zf-yFN" secondAttribute="trailing" constant="5" id="etb-2T-NTd"/>
+                        <constraint firstItem="YNs-Ns-3BT" firstAttribute="top" secondItem="YML-3i-jjO" secondAttribute="top" id="ujn-mK-Bqd"/>
+                        <constraint firstItem="Ouc-ZJ-Se2" firstAttribute="top" secondItem="YML-3i-jjO" secondAttribute="top" id="xXk-a2-dAK"/>
+                        <constraint firstItem="YNs-Ns-3BT" firstAttribute="leading" secondItem="YML-3i-jjO" secondAttribute="leading" constant="10" id="yJN-lN-Whf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bankAccountButton" destination="Ouc-ZJ-Se2" id="hAM-lK-xHh"/>
+                <outlet property="bankAccountLabel" destination="YNs-Ns-3BT" id="2fU-Lw-f86"/>
+                <outlet property="bankBalanceLabel" destination="naF-Zf-yFN" id="0pO-GX-uJ0"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="-216.29464285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.down" catalog="system" width="128" height="72"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

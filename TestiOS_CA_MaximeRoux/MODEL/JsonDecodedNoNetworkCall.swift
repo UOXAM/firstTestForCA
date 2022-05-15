@@ -9,6 +9,12 @@ import Foundation
 
 class JsonDecodedNoNetworkCall {
     
+    public var bankData: DataStructure?
+    
+    init(){
+        bankData = getData()
+    }
+    
     func getData() -> DataStructure? {
         let json = Json().datas
         let jsonData = json.data(using: .utf8)
@@ -16,5 +22,12 @@ class JsonDecodedNoNetworkCall {
         
         return try? decoder.decode(DataStructure.self, from: jsonData!)
     }
-
+    
+//    func addPropertyToData(_ bankList: [Bank]) {
+//        for i in bankList {
+//            bankData?.banks[i].append(isOpen = false)
+//        }
+//
+//    }
+    
 }

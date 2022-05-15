@@ -1,0 +1,6 @@
+framework module Pods_TestiOS_CA_MaximeRoux {
+  umbrella header "Pods-TestiOS_CA_MaximeRoux-umbrella.h"
+
+  export *
+  module * { export * }
+}

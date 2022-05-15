@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OperationCell" rowHeight="85" id="gyD-XG-jcn" customClass="OperationsTableViewCell" customModule="TestiOS_CA_MaximeRoux" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gyD-XG-jcn" id="Xub-3e-cjp">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="whk-kq-DC3">
+                        <rect key="frame" x="20" y="0.0" width="147.5" height="85"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OperationTitel.title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Da-rk-kUa">
+                                <rect key="frame" x="0.0" y="0.0" width="147.5" height="42.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsm-l3-dJx" userLabel="Account Date Label">
+                                <rect key="frame" x="0.0" y="42.5" width="147.5" height="42.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIW-6l-2kf" userLabel="Account Balance Label">
+                        <rect key="frame" x="260.5" y="0.0" width="54.5" height="85"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="kIW-6l-2kf" firstAttribute="top" secondItem="Xub-3e-cjp" secondAttribute="top" id="W4C-UB-XG6"/>
+                    <constraint firstItem="whk-kq-DC3" firstAttribute="leading" secondItem="Xub-3e-cjp" secondAttribute="leading" constant="20" id="ZRv-WF-R1z"/>
+                    <constraint firstAttribute="trailing" secondItem="kIW-6l-2kf" secondAttribute="trailing" constant="5" id="Zp7-lB-2rV"/>
+                    <constraint firstAttribute="bottom" secondItem="whk-kq-DC3" secondAttribute="bottom" id="dlG-jm-5bM"/>
+                    <constraint firstAttribute="bottom" secondItem="kIW-6l-2kf" secondAttribute="bottom" id="fUO-t5-WwC"/>
+                    <constraint firstItem="whk-kq-DC3" firstAttribute="top" secondItem="Xub-3e-cjp" secondAttribute="top" id="jgH-CL-eeL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="uiW-EF-uXD"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="balanceLabel" destination="kIW-6l-2kf" id="5LN-w8-ZaS"/>
+                <outlet property="dateLabel" destination="Tsm-l3-dJx" id="vzU-cT-RSG"/>
+                <outlet property="operationLabel" destination="4Da-rk-kUa" id="Bes-iz-pkz"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="127.56696428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,29 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2285EE227BB734951C7123E9 /* Pods_TestiOS_CA_MaximeRoux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0171F328A33E4851E6EEE4F /* Pods_TestiOS_CA_MaximeRoux.framework */; };
+		C30F796228059D8300DAAFFB /* IsCATableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30F796128059D8300DAAFFB /* IsCATableView.storyboard */; };
+		C30F796428059DE900DAAFFB /* IsCATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30F796328059DE900DAAFFB /* IsCATableViewController.swift */; };
 		C3F5B2AD27FB2F2700F8E6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2AC27FB2F2700F8E6B1 /* AppDelegate.swift */; };
 		C3F5B2AF27FB2F2700F8E6B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2AE27FB2F2700F8E6B1 /* SceneDelegate.swift */; };
-		C3F5B2B127FB2F2700F8E6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2B027FB2F2700F8E6B1 /* ViewController.swift */; };
+		C3F5B2B127FB2F2700F8E6B1 /* MyAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2B027FB2F2700F8E6B1 /* MyAccountsViewController.swift */; };
 		C3F5B2B427FB2F2700F8E6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F5B2B227FB2F2700F8E6B1 /* Main.storyboard */; };
 		C3F5B2B627FB2F2A00F8E6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F5B2B527FB2F2A00F8E6B1 /* Assets.xcassets */; };
 		C3F5B2B927FB2F2A00F8E6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F5B2B727FB2F2A00F8E6B1 /* LaunchScreen.storyboard */; };
 		C3F5B2C127FB2F6800F8E6B1 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2C027FB2F6800F8E6B1 /* DataStructure.swift */; };
 		C3F5B2C627FB304300F8E6B1 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2C527FB304300F8E6B1 /* Json.swift */; };
-		C3F5B2C827FB30F600F8E6B1 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2C727FB30F600F8E6B1 /* JsonDecoder.swift */; };
+		C3F5B2C827FB30F600F8E6B1 /* JsonDecodedNoNetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2C727FB30F600F8E6B1 /* JsonDecodedNoNetworkCall.swift */; };
+		C3F5B2CA27FB3A1C00F8E6B1 /* BankAccountsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2C927FB3A1C00F8E6B1 /* BankAccountsTableView.swift */; };
+		C3F5B2D327FB442500F8E6B1 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2D127FB442500F8E6B1 /* AccountTableViewCell.swift */; };
+		C3F5B2D427FB442500F8E6B1 /* AccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3F5B2D227FB442500F8E6B1 /* AccountTableViewCell.xib */; };
+		C3F5B2E227FCC29900F8E6B1 /* CustomSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2E127FCC29900F8E6B1 /* CustomSectionHeader.swift */; };
+		C3F5B2E427FCC2B300F8E6B1 /* CustomSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3F5B2E327FCC2B300F8E6B1 /* CustomSectionHeader.xib */; };
+		C3F5B2E727FE2A5F00F8E6B1 /* Calcul.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2E627FE2A5F00F8E6B1 /* Calcul.swift */; };
+		C3F5B2EA27FE2FEF00F8E6B1 /* AccountOperationsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2E927FE2FEE00F8E6B1 /* AccountOperationsTableView.swift */; };
+		C3F5B2ED27FE315200F8E6B1 /* OperationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2EB27FE315100F8E6B1 /* OperationTableViewCell.swift */; };
+		C3F5B2EE27FE315200F8E6B1 /* OperationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3F5B2EC27FE315100F8E6B1 /* OperationTableViewCell.xib */; };
+		C3F5B2F027FE36E700F8E6B1 /* MyOperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2EF27FE36E700F8E6B1 /* MyOperationsViewController.swift */; };
+		C3F5B2F927FED8B600F8E6B1 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2F827FED8B600F8E6B1 /* RequestService.swift */; };
+		C3F5B2FB27FEDD6E00F8E6B1 /* BankSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5B2FA27FEDD6E00F8E6B1 /* BankSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C30F796128059D8300DAAFFB /* IsCATableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IsCATableView.storyboard; sourceTree = "<group>"; };
+		C30F796328059DE900DAAFFB /* IsCATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCATableViewController.swift; sourceTree = "<group>"; };
 		C3F5B2A927FB2F2700F8E6B1 /* TestiOS_CA_MaximeRoux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestiOS_CA_MaximeRoux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F5B2AC27FB2F2700F8E6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F5B2AE27FB2F2700F8E6B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3F5B2B027FB2F2700F8E6B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3F5B2B027FB2F2700F8E6B1 /* MyAccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountsViewController.swift; sourceTree = "<group>"; };
 		C3F5B2B327FB2F2700F8E6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3F5B2B527FB2F2A00F8E6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3F5B2B827FB2F2A00F8E6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3F5B2BA27FB2F2A00F8E6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3F5B2C027FB2F6800F8E6B1 /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
 		C3F5B2C527FB304300F8E6B1 /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
-		C3F5B2C727FB30F600F8E6B1 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
+		C3F5B2C727FB30F600F8E6B1 /* JsonDecodedNoNetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecodedNoNetworkCall.swift; sourceTree = "<group>"; };
+		C3F5B2C927FB3A1C00F8E6B1 /* BankAccountsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountsTableView.swift; sourceTree = "<group>"; };
+		C3F5B2D127FB442500F8E6B1 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		C3F5B2D227FB442500F8E6B1 /* AccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
+		C3F5B2E127FCC29900F8E6B1 /* CustomSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSectionHeader.swift; sourceTree = "<group>"; };
+		C3F5B2E327FCC2B300F8E6B1 /* CustomSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSectionHeader.xib; sourceTree = "<group>"; };
+		C3F5B2E627FE2A5F00F8E6B1 /* Calcul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calcul.swift; sourceTree = "<group>"; };
+		C3F5B2E927FE2FEE00F8E6B1 /* AccountOperationsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOperationsTableView.swift; sourceTree = "<group>"; };
+		C3F5B2EB27FE315100F8E6B1 /* OperationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTableViewCell.swift; sourceTree = "<group>"; };
+		C3F5B2EC27FE315100F8E6B1 /* OperationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperationTableViewCell.xib; sourceTree = "<group>"; };
+		C3F5B2EF27FE36E700F8E6B1 /* MyOperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOperationsViewController.swift; sourceTree = "<group>"; };
+		C3F5B2F827FED8B600F8E6B1 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		C3F5B2FA27FEDD6E00F8E6B1 /* BankSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankSession.swift; sourceTree = "<group>"; };
+		D0171F328A33E4851E6EEE4F /* Pods_TestiOS_CA_MaximeRoux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestiOS_CA_MaximeRoux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACAFB3F81552D2093A84B39 /* Pods-TestiOS_CA_MaximeRoux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOS_CA_MaximeRoux.debug.xcconfig"; path = "Target Support Files/Pods-TestiOS_CA_MaximeRoux/Pods-TestiOS_CA_MaximeRoux.debug.xcconfig"; sourceTree = "<group>"; };
+		DFEAF68D8519EE668855BC5D /* Pods-TestiOS_CA_MaximeRoux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOS_CA_MaximeRoux.release.xcconfig"; path = "Target Support Files/Pods-TestiOS_CA_MaximeRoux/Pods-TestiOS_CA_MaximeRoux.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2285EE227BB734951C7123E9 /* Pods_TestiOS_CA_MaximeRoux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08255155FC55DFCB2620F4AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DACAFB3F81552D2093A84B39 /* Pods-TestiOS_CA_MaximeRoux.debug.xcconfig */,
+				DFEAF68D8519EE668855BC5D /* Pods-TestiOS_CA_MaximeRoux.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C3F5B2A027FB2F2700F8E6B1 = {
 			isa = PBXGroup;
 			children = (
 				C3F5B2AB27FB2F2700F8E6B1 /* TestiOS_CA_MaximeRoux */,
 				C3F5B2AA27FB2F2700F8E6B1 /* Products */,
+				08255155FC55DFCB2620F4AC /* Pods */,
+				D0AE6B1F377D6DA7A1B55293 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +123,10 @@
 			children = (
 				C3F5B2C027FB2F6800F8E6B1 /* DataStructure.swift */,
 				C3F5B2C527FB304300F8E6B1 /* Json.swift */,
-				C3F5B2C727FB30F600F8E6B1 /* JsonDecoder.swift */,
+				C3F5B2C727FB30F600F8E6B1 /* JsonDecodedNoNetworkCall.swift */,
+				C3F5B2E627FE2A5F00F8E6B1 /* Calcul.swift */,
+				C3F5B2FA27FEDD6E00F8E6B1 /* BankSession.swift */,
+				C3F5B2F827FED8B600F8E6B1 /* RequestService.swift */,
 			);
 			path = MODEL;
 			sourceTree = "<group>";
@@ -95,9 +142,68 @@
 		C3F5B2C427FB300100F8E6B1 /* CONTROLLER */ = {
 			isa = PBXGroup;
 			children = (
-				C3F5B2B027FB2F2700F8E6B1 /* ViewController.swift */,
+				C3F5B2E527FE25F300F8E6B1 /* Bank TableView */,
+				C3F5B2E827FE2FAD00F8E6B1 /* Operation TableView */,
+				C3F5B2B027FB2F2700F8E6B1 /* MyAccountsViewController.swift */,
+				C3F5B2EF27FE36E700F8E6B1 /* MyOperationsViewController.swift */,
 			);
 			path = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		C3F5B2E527FE25F300F8E6B1 /* Bank TableView */ = {
+			isa = PBXGroup;
+			children = (
+				C3F5B2F227FE3CDB00F8E6B1 /* Custom Cell */,
+				C3F5B2F127FE3CBE00F8E6B1 /* Custom Section */,
+				C3F5B2C927FB3A1C00F8E6B1 /* BankAccountsTableView.swift */,
+			);
+			path = "Bank TableView";
+			sourceTree = "<group>";
+		};
+		C3F5B2E827FE2FAD00F8E6B1 /* Operation TableView */ = {
+			isa = PBXGroup;
+			children = (
+				C3F5B2E927FE2FEE00F8E6B1 /* AccountOperationsTableView.swift */,
+				C3F5B2F327FE3CFC00F8E6B1 /* Custom Cell */,
+			);
+			path = "Operation TableView";
+			sourceTree = "<group>";
+		};
+		C3F5B2F127FE3CBE00F8E6B1 /* Custom Section */ = {
+			isa = PBXGroup;
+			children = (
+				C3F5B2E327FCC2B300F8E6B1 /* CustomSectionHeader.xib */,
+				C3F5B2E127FCC29900F8E6B1 /* CustomSectionHeader.swift */,
+			);
+			path = "Custom Section";
+			sourceTree = "<group>";
+		};
+		C3F5B2F227FE3CDB00F8E6B1 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C3F5B2D127FB442500F8E6B1 /* AccountTableViewCell.swift */,
+				C30F796328059DE900DAAFFB /* IsCATableViewController.swift */,
+				C3F5B2D227FB442500F8E6B1 /* AccountTableViewCell.xib */,
+				C30F796128059D8300DAAFFB /* IsCATableView.storyboard */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		C3F5B2F327FE3CFC00F8E6B1 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C3F5B2EB27FE315100F8E6B1 /* OperationTableViewCell.swift */,
+				C3F5B2EC27FE315100F8E6B1 /* OperationTableViewCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		D0AE6B1F377D6DA7A1B55293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0171F328A33E4851E6EEE4F /* Pods_TestiOS_CA_MaximeRoux.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3F5B2BD27FB2F2A00F8E6B1 /* Build configuration list for PBXNativeTarget "TestiOS_CA_MaximeRoux" */;
 			buildPhases = (
+				4A80BE45C5C1D87EB5B930B0 /* [CP] Check Pods Manifest.lock */,
 				C3F5B2A527FB2F2700F8E6B1 /* Sources */,
 				C3F5B2A627FB2F2700F8E6B1 /* Frameworks */,
 				C3F5B2A727FB2F2700F8E6B1 /* Resources */,
+				DC6C20FD99DC37D81C179672 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,24 +267,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3F5B2B927FB2F2A00F8E6B1 /* LaunchScreen.storyboard in Resources */,
+				C3F5B2EE27FE315200F8E6B1 /* OperationTableViewCell.xib in Resources */,
+				C3F5B2D427FB442500F8E6B1 /* AccountTableViewCell.xib in Resources */,
 				C3F5B2B627FB2F2A00F8E6B1 /* Assets.xcassets in Resources */,
+				C3F5B2E427FCC2B300F8E6B1 /* CustomSectionHeader.xib in Resources */,
+				C30F796228059D8300DAAFFB /* IsCATableView.storyboard in Resources */,
 				C3F5B2B427FB2F2700F8E6B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A80BE45C5C1D87EB5B930B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestiOS_CA_MaximeRoux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6C20FD99DC37D81C179672 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestiOS_CA_MaximeRoux/Pods-TestiOS_CA_MaximeRoux-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestiOS_CA_MaximeRoux/Pods-TestiOS_CA_MaximeRoux-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestiOS_CA_MaximeRoux/Pods-TestiOS_CA_MaximeRoux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3F5B2A527FB2F2700F8E6B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3F5B2B127FB2F2700F8E6B1 /* ViewController.swift in Sources */,
+				C3F5B2B127FB2F2700F8E6B1 /* MyAccountsViewController.swift in Sources */,
 				C3F5B2C627FB304300F8E6B1 /* Json.swift in Sources */,
-				C3F5B2C827FB30F600F8E6B1 /* JsonDecoder.swift in Sources */,
+				C3F5B2D327FB442500F8E6B1 /* AccountTableViewCell.swift in Sources */,
+				C3F5B2F027FE36E700F8E6B1 /* MyOperationsViewController.swift in Sources */,
+				C3F5B2E727FE2A5F00F8E6B1 /* Calcul.swift in Sources */,
+				C30F796428059DE900DAAFFB /* IsCATableViewController.swift in Sources */,
+				C3F5B2C827FB30F600F8E6B1 /* JsonDecodedNoNetworkCall.swift in Sources */,
 				C3F5B2C127FB2F6800F8E6B1 /* DataStructure.swift in Sources */,
+				C3F5B2F927FED8B600F8E6B1 /* RequestService.swift in Sources */,
 				C3F5B2AD27FB2F2700F8E6B1 /* AppDelegate.swift in Sources */,
+				C3F5B2EA27FE2FEF00F8E6B1 /* AccountOperationsTableView.swift in Sources */,
+				C3F5B2E227FCC29900F8E6B1 /* CustomSectionHeader.swift in Sources */,
+				C3F5B2ED27FE315200F8E6B1 /* OperationTableViewCell.swift in Sources */,
 				C3F5B2AF27FB2F2700F8E6B1 /* SceneDelegate.swift in Sources */,
+				C3F5B2FB27FEDD6E00F8E6B1 /* BankSession.swift in Sources */,
+				C3F5B2CA27FB3A1C00F8E6B1 /* BankAccountsTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +484,7 @@
 		};
 		C3F5B2BE27FB2F2A00F8E6B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACAFB3F81552D2093A84B39 /* Pods-TestiOS_CA_MaximeRoux.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -349,6 +514,7 @@
 		};
 		C3F5B2BF27FB2F2A00F8E6B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEAF68D8519EE668855BC5D /* Pods-TestiOS_CA_MaximeRoux.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
